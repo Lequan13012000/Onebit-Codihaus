@@ -1,12 +1,14 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
+<script >
+import TheContainer from '../src/components/layout/TheContainer.vue'
+export default {
+  components:{
+    TheContainer
+  }
+}
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <TheContainer />
 </template>
 
 <style>
@@ -16,6 +18,8 @@ import HelloWorld from './components/HelloWorld.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 </style>
