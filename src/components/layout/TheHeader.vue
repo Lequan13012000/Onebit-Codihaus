@@ -50,6 +50,15 @@ export default {};
 
 <style lang="scss" scoped>
 .m-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
+  z-index: 1000;
+  background: #fff;
+      padding: 12px 0;
   .m-header-content {
     display: flex;
     max-width: 1250px;
