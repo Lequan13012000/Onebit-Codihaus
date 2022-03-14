@@ -1,18 +1,20 @@
 <template>
-<div>
-  <TheHeader />
-  <TheContent />
-</div>
-
+  <div>
+    <TheHeader />
+    <TheContent />
+    <TheFooter />
+  </div>
 </template>
 
 <script>
 import TheHeader from "../layout/TheHeader.vue";
 import TheContent from "../layout/TheContent.vue";
+import TheFooter from "../layout/TheFooter.vue";
 export default {
   components: {
     TheHeader,
-    TheContent
+    TheContent,
+    TheFooter,
   },
 };
 </script>
