@@ -1,5 +1,8 @@
 <template>
   <div class="m-content-wrapper">
+      <!-- <div class="m-icon-telegram">
+        <img src="../../assets/content/img/telegram.jpg" alt="" />
+      </div> -->
     <div class="m-content-top">
       <div class="m-content">
         <Slide />
@@ -39,6 +42,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// .m-icon-telegram{
+// position: absolute;
+// top: 50%;
+// right: 0;
+//     }
 .m-content-top {
   background-color: #f4f5f6;
   // height: 100vh;

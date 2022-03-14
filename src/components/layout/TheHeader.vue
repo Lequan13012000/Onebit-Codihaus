@@ -7,11 +7,14 @@
         </div>
         <div class="m-header-left-menu">
           <ul class="m-menu">
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Funds</li>
-            <li>Events</li>
-            <li>Blog</li>
+            <li>
+              <a href="">Home</a>
+              <div class="m-decor"></div>
+            </li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Funds</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Blog</a></li>
           </ul>
         </div>
       </div>
@@ -58,7 +61,7 @@ export default {};
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
   z-index: 1000;
   background: #fff;
-      padding: 12px 0;
+  padding: 12px 0;
   .m-header-content {
     display: flex;
     max-width: 1250px;
@@ -71,22 +74,33 @@ export default {};
       .m-header-left-menu {
         .m-menu {
           display: flex;
-          align-items: center;
+          // align-items: center;
           list-style: none;
           li {
-            font-size: 16px;
-            font-weight: 600;
+            margin-right: 48px;
+            a {
+              text-decoration: none;
+              color: #666d8f;
+              font-size: 16px;
+              font-weight: 600;
+            }
+            .m-decor {
+              width: 16px;
+              height: 2px;
+              background-color: #1777ee;
+              margin-left: 13px;
+            }
             &:first-child {
-              color: #1777ee;
-              text-decoration: underline;
-              text-underline-offset: 4px;
-              text-decoration-thickness: 3px;
+              // a {
+              //   color: #1777ee;
+              //   text-decoration: underline;
+              //   text-underline-offset: 4px;
+              //   text-decoration-thickness: 3px;
+              // }
             }
             &:last-child {
               margin-right: 238px;
             }
-            margin-right: 48px;
-            color: #666d8f;
           }
         }
       }
@@ -120,10 +134,14 @@ export default {};
       }
       .m-header-right-logo {
         display: flex;
+margin-left: 16px;
         .m-icon {
           width: 40px;
           height: 40px;
           margin-right: 16px;
+          &:last-child{
+            margin-right:0;
+          }
         }
       }
     }

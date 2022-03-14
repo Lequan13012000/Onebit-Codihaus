@@ -128,7 +128,9 @@
           </div>
         </div>
       </div>
-      <div class="m-footer-bottom"></div>
+      <div class="m-footer-bottom">
+        <p>All rights are reserved © 2021 Crypto VCs.</p>
+      </div>
     </div>
   </div>
 </template>
@@ -146,13 +148,13 @@ export default {};
   height: 371px;
   .m-footer {
     width: 1230px;
-    border-bottom: 1px solid #5b5656;
     .m-footer-top {
       grid-template-columns: 1fr 1fr;
       display: grid;
       grid-gap: 24px;
       margin-top: 60px;
       margin-bottom: 40px;
+
       .m-footer-top-left {
         .m-top-left-detail {
           display: flex;
@@ -245,6 +247,14 @@ export default {};
       }
     }
     .m-footer-bottom {
+      border-top: 1px solid #5b5656;
+      text-align: center;
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #777e91;
+        margin-top:20px;
+      }
     }
   }
 }

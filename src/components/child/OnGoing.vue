@@ -934,6 +934,7 @@ export default {};
               box-sizing: border-box;
               border-radius: 12px;
               justify-content: space-between;
+              margin-top: 8px;
               .m-frame-left {
                 p {
                   margin-top: 4px;
