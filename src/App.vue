@@ -24,5 +24,6 @@ export default {
 body {
     display: block;
     margin: 0;
+    overflow-x: hidden;
 }
 </style>

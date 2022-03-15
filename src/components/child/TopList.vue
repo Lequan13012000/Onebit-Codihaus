@@ -228,6 +228,9 @@
       </div>
     </div>
     <div class="m-top_list-content">
+      <div class="m-icon-telegram">
+        <img src="../../assets/content/img/telegram.jpg" alt="" />
+      </div>
       <div class="m-grid">
         <div class="m-grid-header"></div>
         <table>
@@ -575,6 +578,17 @@ export default {};
     }
   }
   .m-top_list-content {
+    .m-icon-telegram {
+      position: fixed;
+      top: 50%;
+      right: 0;
+      z-index: 5000;
+      img{
+        border-radius: 50%;
+        width:50px;
+        height:50px;
+      }
+    }
     .m-grid {
       padding-left: 24px;
       padding-right: 29px;
